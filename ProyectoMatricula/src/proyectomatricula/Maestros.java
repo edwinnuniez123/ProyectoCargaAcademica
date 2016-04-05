@@ -14,9 +14,9 @@ public class Maestros {
     private String clase;
     private int edificio;
     private int aula;
-    private Horas hora;
+    private int hora;
     
-    public Maestros(String n, String c,int e, int a, Horas h){
+    public Maestros(String n, String c,int e, int a, int h){
         nombre=n;
         clase=c;
         edificio=e;

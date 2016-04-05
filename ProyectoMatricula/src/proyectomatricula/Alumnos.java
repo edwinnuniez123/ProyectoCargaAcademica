@@ -14,14 +14,14 @@ public class Alumnos {
     private String clase;
     private int edificio;
     private int aula;
-    private int disponibilidad;
     
-    public Alumnos(String n, String c, int e, int a, int d){
+    
+    public Alumnos(String n, String c, int e, int a){
         nombre=n;
         clase=c;
         edificio=e;
         aula=a;
-        disponibilidad=d;
+       
         
         
     }
@@ -29,7 +29,7 @@ public class Alumnos {
     
    public String toString()
    {
-      String s=nombre+"  "+clase+"  "+edificio+"  "+aula+"  "+disponibilidad;
+      String s=nombre+"  "+clase+"  "+edificio+"  "+aula;
       return s;
    }
 }

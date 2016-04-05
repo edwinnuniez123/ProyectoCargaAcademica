@@ -12,9 +12,9 @@ package proyectomatricula;
 public class AlumnoSatisfecho {
     private String nombre;
     private String clase;
-    private Horas hora;
+    private int hora;
     
-    public AlumnoSatisfecho(String n, String c, Horas h){
+    public AlumnoSatisfecho(String n, String c, int h){
         nombre=n;
         clase=c;
         
