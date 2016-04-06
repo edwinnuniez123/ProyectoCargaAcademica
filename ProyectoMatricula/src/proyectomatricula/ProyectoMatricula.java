@@ -144,7 +144,7 @@ public class ProyectoMatricula {
        String clase=null;
        int edificio=0;
        int aula=0;
-       int disponibilidad=40;
+       
        
        while (numero!=0)
        {
@@ -173,7 +173,7 @@ public class ProyectoMatricula {
           
           Alumnos a = new Alumnos(nombre, clase, edificio, aula);
           alumnos.add(a);
-          salida=salida+" "+nombre+" | "+clase+" | "+edificio+"/"+aula+" | "+disponibilidad+"|||||";
+          salida=salida+" "+nombre+" | "+clase+" | "+edificio+"/"+aula+"|||||";
           System.out.println();
 
        }
